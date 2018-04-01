@@ -12,6 +12,8 @@
 		BFCFDB17206DB4C400365701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCFDB15206DB4C400365701 /* Main.storyboard */; };
 		BFCFDB19206DB4C400365701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCFDB18206DB4C400365701 /* Assets.xcassets */; };
 		BFCFDB1C206DB4C400365701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCFDB1A206DB4C400365701 /* LaunchScreen.storyboard */; };
+		BFCFDB24206DBA8000365701 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFDB23206DBA8000365701 /* PersonCell.swift */; };
+		BFCFDB26206F030700365701 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFDB25206F030700365701 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BFCFDB18206DB4C400365701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCFDB1B206DB4C400365701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCFDB1D206DB4C400365701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCFDB23206DBA8000365701 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		BFCFDB25206F030700365701 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BFCFDB11206DB4C400365701 /* AppDelegate.swift */,
 				BFCFDB13206DB4C400365701 /* ViewController.swift */,
+				BFCFDB25206F030700365701 /* Person.swift */,
+				BFCFDB23206DBA8000365701 /* PersonCell.swift */,
 				BFCFDB15206DB4C400365701 /* Main.storyboard */,
 				BFCFDB18206DB4C400365701 /* Assets.xcassets */,
 				BFCFDB1A206DB4C400365701 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCFDB24206DBA8000365701 /* PersonCell.swift in Sources */,
 				BFCFDB14206DB4C400365701 /* ViewController.swift in Sources */,
+				BFCFDB26206F030700365701 /* Person.swift in Sources */,
 				BFCFDB12206DB4C400365701 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
